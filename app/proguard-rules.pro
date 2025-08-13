@@ -1,0 +1,3 @@
+-keep class androidx.room.** { *; }
+-keep class com.google.gson.** { *; }
+-dontwarn sun.misc.Unsafe

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="16dp">
+	<CheckBox
+		android:id="@+id/chk_expiring_soon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/expiring_soon" />
+	<com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/expiry_date">
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/input_filter_expiry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:focusable="false" />
+	</com.google.android.material.textfield.TextInputLayout>
+	<CheckBox
+		android:id="@+id/chk_low_stock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/low_stock" />
+	<com.google.android.material.textfield.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="@string/low_stock_threshold">
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/input_filter_threshold"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="number" />
+	</com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/nav_graph"
+	app:startDestination="@id/dashboardFragment">
+
+	<fragment
+		android:id="@+id/dashboardFragment"
+		android:name="com.example.pharmaledger.ui.dashboard.DashboardFragment"
+		android:label="@string/dashboard" />
+
+	<fragment
+		android:id="@+id/medicinesFragment"
+		android:name="com.example.pharmaledger.ui.medicines.MedicinesFragment"
+		android:label="@string/medicines" />
+
+	<fragment
+		android:id="@+id/salesFragment"
+		android:name="com.example.pharmaledger.ui.sales.SalesFragment"
+		android:label="@string/sales" />
+
+	<fragment
+		android:id="@+id/expensesFragment"
+		android:name="com.example.pharmaledger.ui.expenses.ExpensesFragment"
+		android:label="@string/expenses" />
+
+	<fragment
+		android:id="@+id/settingsFragment"
+		android:name="com.example.pharmaledger.ui.settings.SettingsFragment"
+		android:label="@string/settings" />
+</navigation>

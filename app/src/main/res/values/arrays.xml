@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="backup_location_entries">
+		<item>Local Storage</item>
+		<item>Google Drive</item>
+	</string-array>
+	<string-array name="backup_location_values">
+		<item>local</item>
+		<item>drive</item>
+	</string-array>
+</resources>
